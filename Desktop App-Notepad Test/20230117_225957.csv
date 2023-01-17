@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MyTestSuite,,,,2023-01-17 23:00:10,2023-01-17 23:01:00,49.162s,PASSED
+,,,,,,,
+Test Cases/Automation Test Cases,,,,2023-01-17 23:00:33,2023-01-17 23:01:00,26.310s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""Notepad"")",,,,2023-01-17 23:00:33,2023-01-17 23:00:34,0.582s,PASSED
+"click(findWindowsObject(""Object Repository/NotepadObjects/Edit""))",,,,2023-01-17 23:00:34,2023-01-17 23:00:34,0.452s,PASSED
+"switchToWindowTitle(""Notepad"")",,,,2023-01-17 23:00:34,2023-01-17 23:00:48,13.539s,PASSED
+switchToDesktop(),,,,2023-01-17 23:00:48,2023-01-17 23:00:48,0.002s,PASSED
+switchToApplication(),,,,2023-01-17 23:00:48,2023-01-17 23:00:48,0.002s,PASSED
+"setText(findWindowsObject(""Object Repository/NotepadObjects/Edit""), ""Automation Testing using Katalon Studio"")",,,,2023-01-17 23:00:48,2023-01-17 23:00:51,2.792s,PASSED
+closeApplication(),,,,2023-01-17 23:00:51,2023-01-17 23:00:56,5.052s,PASSED
+closeApplication(),,,,2023-01-17 23:00:56,2023-01-17 23:01:00,3.878s,PASSED
